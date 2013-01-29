@@ -121,6 +121,7 @@ public class MainActivity extends FragmentActivity {
 			textView.setText(Integer.toString(getArguments().getInt(
 					ARG_SECTION_NUMBER)));
 			return textView;
+			System.out.println("make a change");
 		}
 	}
 
